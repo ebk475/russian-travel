@@ -1,8 +1,6 @@
 .page {
-    min-width: 1024px;
-    max-width: 1280px;
-    height: 6875px;
-    margin: 0 auto;
-    font-family: 'inter', Arial, sans-serif;
-    background: #2A2C2F;
-  }
+max-width: 1440px;
+margin: 0;
+font-family: 'inter', Arial, sans-serif;
+background: #2A2C2F;
+}

@@ -1,10 +1,30 @@
 .lead {
-width: 984px;
-height: 1005px;
-margin-left: 148px;
-margin-top: 56px;
+max-width: 984px;
+min-height: 1005px;
+margin: 56px auto 0;
 display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 48px auto 0;
+    min-height: 962px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    min-height: 862px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    min-height: 406px;
+  }
 }

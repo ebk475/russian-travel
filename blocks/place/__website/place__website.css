@@ -1,9 +1,14 @@
 .place__website {
-width: 456px;
-height: 46px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 grid-area: website;
 align-self: end;
+gap: 12px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
