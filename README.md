@@ -20,4 +20,4 @@
 
 **Сайт**
 
-Сам проект Вы можете посмотреть [тут](https://ebk475.github.io/russian-travel/)
+Сам проект Вы можете посмотреть [тут](https://ebk475.github.io/russian-travel/index.html)
