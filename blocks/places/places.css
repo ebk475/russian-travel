@@ -1,28 +1,28 @@
 .places {
-display: flex;
-flex-direction: column;
-max-width: 984px;
-align-items: center;
-margin: 92px auto 0;
-gap: 80px;
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    align-items: center;
+    margin: 92px auto 0;
+    gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
-  .places {
-    margin: 92px 48px 0;
-  }
+    .places {
+        margin: 92px 48px 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .places {
-    margin: 88px 24px 0;
-    gap: 73px;
-  }
+    .places {
+        margin: 88px 24px 0;
+        gap: 73px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .places {
-    margin: 64px 16px 0;
-    gap: 50px;
-  }
+    .places {
+        margin: 64px 16px 0;
+        gap: 50px;
+    }
 }
