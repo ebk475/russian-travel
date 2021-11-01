@@ -1,6 +1,5 @@
 .place {
     display: grid;
-    width: 100%;
     grid-template-columns: 460px 1fr;
     grid-template-areas: "title website" "image paragraphs";
     gap: 48px 40px;
